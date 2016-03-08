@@ -1,0 +1,24 @@
+测试使用说明
+
+
+1、首先，将所有待测试的API描述内容，输入到 orderTestSet/allAPITest/input.json里；
+   然后，运行testAPI.py， 查看result.txt的输出结果内容，如果都通过就进行第2步，否则修改API
+
+2、进行逻辑或业务规则验证，
+   先创建一个json文件，如inputAndOutput.json 和逻辑测试文件py，如orderSubmitCheck.py
+   json文件的书写格式，仿照inputAndOutput.json 进行输入；
+   py文件的格式，仿照orderSubmitCheck.py进行输入
+   输入和编写完毕后，进行第3步
+
+3、在orderUnitTest_main.py 添加对应的测试文件的类，需要三个地方添加
+
+   1）import 包名.类名
+
+   2）test_case2=unittest.TestLoader().loadTestsFromTestCase(包名.类名)
+   #to_do 在下面增加对应的测试类
+
+   3）test_suit.addTests(test_case2)
+    #to_do 在下面增加对应的测试类
+
+   添加完后，运行orderUnitTest_main文件，查看输出结果。
+
