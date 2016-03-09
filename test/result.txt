@@ -2,7 +2,7 @@
 url : http://192.168.13.202:8081/order/SubmitNewOrderCtrl 
 结果: 测试通过 
 expect: "statusCode":800 
-response: {"statusCode":800,"returnObj":{"submitted":true,"newOrderId":"2d4b9bd2d8a540a6b8494fb2d3ef587d","newOrderNo":"20160308093309414642","totalPrice":90.40,"verifyStatusCode":800}}
+response: {"statusCode":800,"returnObj":{"submitted":true,"newOrderId":"5f4b0d9da30548aa86bad4dd1419e5fc","newOrderNo":"20160308155727646100","totalPrice":90.40,"verifyStatusCode":800}}
 
 ==========
 
