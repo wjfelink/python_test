@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 __author__ = 'user'
 import chardet
-
+import  json
 # f = open('D:\\ctCloud\\2016\\python\\testAPI.py','r')
 # data = f.read()
 # print(chardet.detect(data))
@@ -22,3 +22,11 @@ print parentPathName
     # for line in Test_Data:
     #     print line
     # Test_Data.close() #关闭文件
+t1='{"t1":"1","t2":"2"}'
+t1_re=json.loads(t1)
+t2='{"t3":3,"t4":4}'
+t2_re=json.loads(t2)
+t3={}
+t3["output1"]=t1_re
+t3["output2"]=t2_re
+print t3

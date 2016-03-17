@@ -1,0 +1,8 @@
+第1个REST接口:
+url : http://192.168.13.202:8081/order/RenewOrderBatch 
+结果: 测试通过 
+expect: "statusCode":800 
+response: {"statusCode":800,"returnObj":[{"submitted":false,"newOrderId":"2fbaa5a274f0404783b4db980bd98920","newOrderNo":"20160317142337416164","verifyStatusCode":900}]}
+
+==========
+

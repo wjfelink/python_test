@@ -1,0 +1,12 @@
+[
+	{
+	    "desc":"正常单转按量",
+		"url":"http://192.168.13.202:8081/V2/order/NormalToOndemand",
+		"method":"POST",
+		"header":{"Content-type":"application/x-www-form-urlencoded","userId":"9cd636bdb01b451db27be0e04feebd02","accountId":"9b5ec7efe1b245c388fa008447f9ec2c","accountType":"1"},
+		"body":{
+           "resourceDetail":[{"accountId":"ef4a3ddf04594b30ae25ef7043bfec39","userId":"a71b1669cc784783b1f0214517341f8a","masterResourceIds":"7084eb57a6b144718642f2430a3d8448,bb083da48f394abb9c24c024bb69588c"}]
+		},
+		"expect":"\"statusCode\":800"
+	}
+]

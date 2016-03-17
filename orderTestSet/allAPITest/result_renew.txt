@@ -1,0 +1,8 @@
+第1个REST接口:
+url : http://192.168.13.202:8081/order/SubmitRenewOrderCtrl 
+结果: 测试通过 
+expect: "statusCode":800 
+response: {"statusCode":800,"returnObj":{"submitted":true,"newOrderId":"0d5a3fb05a7c4e31ba2484d7e86e6877","newOrderNo":"20160317102838460645","totalPrice":79.20,"verifyStatusCode":800}}
+
+==========
+

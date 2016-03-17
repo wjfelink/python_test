@@ -1,0 +1,8 @@
+第1个REST接口:
+url : http://192.168.13.202:8081/order/NewTrialOrder 
+结果: 测试通过 
+expect: "statusCode":800 
+response: {"statusCode":800,"returnObj":{"submitted":true,"newOrderId":"b8fd889a65ad490ca7cfac1f9368d825","newOrderNo":"20160317150452650680","totalPrice":90.40,"verifyStatusCode":800}}
+
+==========
+

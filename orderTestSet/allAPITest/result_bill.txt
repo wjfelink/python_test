@@ -1,0 +1,8 @@
+第1个REST接口:
+url : http://192.168.13.202:8081/order/SubmitBillCtrl 
+结果: 测试失败 
+expect: "statusCode":800 
+response: {"statusCode":500,"message":"订单项值要大于0|"}
+
+==========
+

@@ -4,13 +4,13 @@ import urllib
 import json
 
 
-def main():
+def main(filename,resultname):
     import sys
     reload(sys)
     sys.setdefaultencoding('utf8')
 
-    with open("input.json") as f:
-        with open("result.txt", "w") as result:
+    with open(filename) as f:
+        with open(resultname, "w") as result:
             input = f.read()
             try:
                 input = json.loads(input)
@@ -60,4 +60,15 @@ def main():
     print u"测试结束, 详情请看result.txt"
 
 if __name__ == '__main__':
-    main()
+    #main("input_createOrder.json","result_create.txt") #yes
+    main("input_newTrialOrder.json","result_newTrialOrder.txt") #yes
+    #main("input_renew.json","result_renew.txt")   # yes
+    #main("input_refund.json","result_refund.txt")  #yes
+    #main("input_update.json","result_update.txt")  # no
+    #main("input_normalToOndemand.json","result_normalToOndemand.txt")  # no
+    #main("input_bill.json","result_bill.txt")  #no
+    #main("input_renewOrderBatch.json","result_renewOrderBatch.txt") #yes
+    #main("input_refundOrderBatch.json","result_refundOrderBatch.txt") #no
+
+
+

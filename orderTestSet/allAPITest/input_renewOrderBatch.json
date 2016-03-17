@@ -1,0 +1,12 @@
+[
+    {
+	    "desc":"批量续订--根据主订单号进行批量续订",
+		"url":"http://192.168.13.202:8081/order/RenewOrderBatch",
+		"method":"POST",
+		"header":{"Content-type":"application/x-www-form-urlencoded","userId":"9cd636bdb01b451db27be0e04feebd02","accountId":"9b5ec7efe1b245c388fa008447f9ec2c","accountType":"1"},
+		"body":{
+           "orderDetail":{"masterOrderNos":"20160317103612528582","cycleCnt":"12","cycleType":"3","customPrice":"","customCreateDate":""}
+		},
+		"expect":"\"statusCode\":800"
+	}
+]
