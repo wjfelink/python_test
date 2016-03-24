@@ -2,7 +2,7 @@
 url : http://192.168.13.202:8081/order/SubmitUpOrderCtrl 
 结果: 测试失败 
 expect: "statusCode":800 
-response: {"statusCode":500}
+response: {"statusCode":500,"message":"资源7e5df5f88bfd458690b7b5f6fe323565已经被锁定"}
 
 ==========
 

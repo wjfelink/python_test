@@ -1,0 +1,12 @@
+[
+    {
+        "new_db_name":"portal_0224",
+        "old_db_name":"portal_0304",
+        "table_nums":4,
+        "table_name":"master_order,order_meta,order_item,inner_order_meta",
+        "table_search_id_name":"master_order_id,fk_master_order_id,fk_master_order_id,fk_master_order_id",
+        "new_table_search_id_value":"47e35de732534ee9846926090230be07",
+        "old_table_search_id_value":"7cee403643714c41b10c96be0ff6fec3",
+        "result_primary_key":"null,null,FK_sales_entry_id,null"
+    }
+]

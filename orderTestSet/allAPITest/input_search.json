@@ -1,0 +1,22 @@
+[
+    {
+	    "desc":"普通单查询",
+		"url":"http://192.168.13.202:8080/order/admin/QueryOrderDetail",
+		"method":"POST",
+		"header":{"Content-type":"application/x-www-form-urlencoded","masterOrderId":"074cf5bea89347d6a55df95817b49c3b","userId":"9cd636bdb01b451db27be0e04feebd02","accountId":"9b5ec7efe1b245c388fa008447f9ec2c","accountType":"1"},
+		"body":{
+
+		},
+		"expect":"\"statusCode\":800"
+	},
+	{
+	    "desc":"普通单查询",
+		"url":"http://192.168.13.202:8081/order/admin/QueryOrderDetail",
+		"method":"POST",
+		"header":{"Content-type":"application/x-www-form-urlencoded","masterOrderId":"b7fda84fd1ec43a79ad7003bc5f9a3be","userId":"9cd636bdb01b451db27be0e04feebd02","accountId":"9b5ec7efe1b245c388fa008447f9ec2c","accountType":"1"},
+		"body":{
+
+		},
+		"expect":"\"statusCode\":800"
+	}
+]

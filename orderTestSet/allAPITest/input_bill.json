@@ -1,11 +1,11 @@
 [
    {
-	    "desc":"按量出账单",
+	    "desc":"按量出账单--服务器暂时有问题,等重新部署完后进行测试即可",
 		"url":"http://192.168.13.202:8081/order/SubmitBillCtrl",
 		"method":"POST",
 		"header":{"Content-type":"application/x-www-form-urlencoded","userId":"aea20980d8d84699878704ab8dec8545","accountId":"cb44b458126e4dd6a07ee1184e808bb4","accountType":"1"},
 		"body":{
-           "orderDetail":{"orderType":26,"payType":"2","description":"2015-10","isVirtualOrder":"true","discountRuleId":"null","orders":[{"instanceCnt":1,"cycleCnt":"1","cycleType":3,"orderConfig":{"payPattern":"月"},"serviceTag":"CDN","items":[{"master":true,"itemConfig":{"resourceId":"d30fe2f4386843a1b63fb175056e5ae8","resourceOndemandId":"5bbad85c21e04eb99028024584bb878e","masterOrderOrigId":"432bf81bdcea45258f8531603486b276","itemValue":"0.00","vendor":"ctyun","contractId":"6f49659b04a046498348af29fca597fa"},"itemValue":0,"sale":{"pricePlanId":"","saleEntryId":"d849e030a5914122a6eb6b27296cd514","description":""}}]},{"instanceCnt":1,"cycleCnt":"1","cycleType":3,"orderConfig":{"payPattern":"月"},"serviceTag":"CDN","items":[{"master":true,"itemConfig":{"resourceId":"fb8780f476614382a8b86233ece7e779","resourceOndemandId":"7505f02e9eaf431e94ea69330eb970c0","masterOrderOrigId":"1379e840ce414bae8dc67ddf72d36829","itemValue":"41.76","vendor":"ctyun","contractId":"6f49659b04a046498348af29fca597fa"},"itemValue":41.76,"sale":{"pricePlanId":"","saleEntryId":"385949dedd0b4cb19b41feb5678f6983","description":""}}]}],"property":{"dayCnt":"31","billPeriod":"2015-10"}}
+           "orderDetail":{"orderType":26,"payType":"2","description":"2015-10","isVirtualOrder":"true","discountRuleId":"null","orders":[{"instanceCnt":1,"cycleCnt":"1","cycleType":3,"orderConfig":{"payPattern":"月"},"serviceTag":"CDN","items":[{"master":true,"itemConfig":{"resourceId":"d30fe2f4386843a1b63fb175056e5ae8","resourceOndemandId":"5bbad85c21e04eb99028024584bb878e","masterOrderOrigId":"432bf81bdcea45258f8531603486b276","itemValue":"0.00","vendor":"ctyun","contractId":"6f49659b04a046498348af29fca597fa"},"itemValue":1,"sale":{"pricePlanId":"","saleEntryId":"d849e030a5914122a6eb6b27296cd514","description":""}}]},{"instanceCnt":1,"cycleCnt":"1","cycleType":3,"orderConfig":{"payPattern":"月"},"serviceTag":"CDN","items":[{"master":true,"itemConfig":{"resourceId":"fb8780f476614382a8b86233ece7e779","resourceOndemandId":"7505f02e9eaf431e94ea69330eb970c0","masterOrderOrigId":"1379e840ce414bae8dc67ddf72d36829","itemValue":"41.76","vendor":"ctyun","contractId":"6f49659b04a046498348af29fca597fa"},"itemValue":41.76,"sale":{"pricePlanId":"","saleEntryId":"385949dedd0b4cb19b41feb5678f6983","description":""}}]}],"property":{"dayCnt":"31","billPeriod":"2015-10"}}
 		},
 		"expect":"\"statusCode\":800"
 	}

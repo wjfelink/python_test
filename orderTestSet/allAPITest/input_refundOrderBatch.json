@@ -3,9 +3,9 @@
 	    "desc":"批量退订",
 		"url":"http://192.168.13.202:8081/order/RefundOrderBatch",
 		"method":"POST",
-		"header":{"Content-type":"application/x-www-form-urlencoded","userId":"aea20980d8d84699878704ab8dec8545","accountId":"cb44b458126e4dd6a07ee1184e808bb4","accountType":"1"},
+		"header":{"Content-type":"application/x-www-form-urlencoded"},
 		"body":{
-           "resourceDetail":[{"accountId":"9b5ec7efe1b245c388fa008447f9ec2c","userId":"9cd636bdb01b451db27be0e04feebd02","masterResourceIds":"5ac4aa4c6c0d47e4a6e947fdaff3b6df"}]
+           "resourceDetail":[{"accountId":"9b5ec7efe1b245c388fa008447f9ec2c","userId":"9cd636bdb01b451db27be0e04feebd02","masterResourceIds":"c84bb0ddbfd942a28a04224581fb9296" }]
 		},
 		"expect":"\"statusCode\":800"
 	}
